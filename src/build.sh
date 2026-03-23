@@ -17,5 +17,5 @@ sudo apt update; sudo apt install git -y
 # Clone linux-on-ibm-z to keep it current
 git clone https://github.com/linux-on-ibm-z/scripts.git /tmp/linux-on-ibm-z
 bash /tmp/linux-on-ibm-z-scripts/CockroachDB/${version}/build_crdb.sh -y
-tar cvfz cockroach-${version}-linux-s390x.tar.gz -C /usr/local/bin cockroach -C /usr/local/lib cockroach
+tar cvfz cockroach-${version}-linux-s390x.tar.gz -C /usr/local/bin cockroach -C /usr/local lib
 exit 0
